@@ -12,4 +12,4 @@ app.listen(port, () => {
 
 app.get('/api/products', getProducts)
 
-app.get('/api/product/:id', getProducts)
+app.get('/api/product/:id', getProduct)
